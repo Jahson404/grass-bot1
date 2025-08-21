@@ -1,0 +1,4 @@
+grass_accounts.db
+encryption_key.key
+*.log
+backups/
