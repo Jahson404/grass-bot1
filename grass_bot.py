@@ -25,8 +25,8 @@ DB_FILE = "grass_accounts.db"
 LOG_FILE = "grass_farming.log"
 BACKUP_DIR = "backups"
 KEY_FILE = "encryption_key.key"
-TELEGRAM_BOT_TOKEN = os.getenv("TELEGRAM_BOT_TOKEN", "YOUR_TELEGRAM_BOT_TOKEN")
-TELEGRAM_CHAT_ID = os.getenv("TELEGRAM_CHAT_ID", "YOUR_CHAT_ID")
+TELEGRAM_BOT_TOKEN = os.getenv("TELEGRAM_BOT_TOKEN", "8395158355:AAGe_h9UVd0WVfw3ef95tIsRpytRznh9coM")
+TELEGRAM_CHAT_ID = os.getenv("TELEGRAM_CHAT_ID", "6756629294")
 
 async def send_telegram_message(message, chat_id=None):
     try:
