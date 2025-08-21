@@ -1,0 +1,6 @@
+loguru
+websockets
+websockets_proxy
+requests
+cryptography
+python-telegram-bot>=20.0
