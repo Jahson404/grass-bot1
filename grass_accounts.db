@@ -1,0 +1,4 @@
+from grass_bot import init_db, add_or_update_account, get_encryption_key
+init_db()
+key = get_encryption_key()
+add_or_update_account("your_email@example.com", "your_user_id", "your_bearer_token", key)
